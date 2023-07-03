@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "TabManager",
+	"version": "1.0.1",
+	"description": "一个浏览器标签页管理工具（A browser tab management tool）",
+	"icons": {
+		"16": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
+	"action": {
+		"default_icon": "img/icon.png",
+		"default_title": "TabManager",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs"
+	],
+	"host_permissions": [
+		"http://*/*", 
+		"https://*/*"
+	],
+	"homepage_url": "https://www.aireadall.com"
+}

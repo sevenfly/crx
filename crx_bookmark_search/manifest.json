@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "bookmark",
+	"version": "1.0.1",
+	"description": "搜索书签的工具",
+	"icons": {
+		"16": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
+	"action": {
+		"default_icon": "img/icon.png",
+		"default_title": "bookmark",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"bookmarks"
+	],
+	"host_permissions": [
+		"http://*/*", 
+		"https://*/*"
+	],
+	"homepage_url": "https://www.baidu.com"
+}

@@ -1,0 +1,27 @@
+html,body,
+div,span,p,a,
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+input {
+	border: none;
+	outline: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.inlineBlock{
+	display: inline-block;
+}
+.cursorPointer {
+	cursor: pointer;
+}
+.alignItemCenterFlex {
+	display: flex;
+	align-items: center;
+}

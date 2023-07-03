@@ -1,0 +1,54 @@
+#app{
+	/* border-radius: 10px; */
+}
+.listContainer{
+	width: 600px;
+	padding:50px 20px 20px;
+
+}
+.listContainer .logo{
+	width:20px;
+	height: 20px;
+	margin-right: 8px;
+	margin-left: 6px;
+	vertical-align: middle;
+	border-radius: 20px;
+}
+.listContainer li{
+	line-height: 26px;
+	margin:4px 0;
+	cursor: pointer;
+	width:100%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.listContainer li.searchOne{
+	background: rgb(209, 108, 14);
+	color: #fff;
+}
+.listContainer .hover-li{
+	background: gray;
+}
+.listContainer .title{
+	margin-bottom: 10px;
+}
+.header{
+	height: 50px;
+	line-height: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding:0 20px;
+	position: fixed;
+	background: #fff;
+	width: 100%;
+}
+.header input{
+	border:1px solid rgba(80, 111, 116, 0.945);
+	width:200px;
+	height: 26px;
+	line-height: 26;
+	border-radius: 20px;
+	padding:0 10px;
+
+}
